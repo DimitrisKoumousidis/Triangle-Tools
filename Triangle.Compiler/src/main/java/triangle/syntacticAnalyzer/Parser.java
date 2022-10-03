@@ -31,14 +31,7 @@ import triangle.abstractSyntaxTrees.aggregates.MultipleRecordAggregate;
 import triangle.abstractSyntaxTrees.aggregates.RecordAggregate;
 import triangle.abstractSyntaxTrees.aggregates.SingleArrayAggregate;
 import triangle.abstractSyntaxTrees.aggregates.SingleRecordAggregate;
-import triangle.abstractSyntaxTrees.commands.AssignCommand;
-import triangle.abstractSyntaxTrees.commands.CallCommand;
-import triangle.abstractSyntaxTrees.commands.Command;
-import triangle.abstractSyntaxTrees.commands.EmptyCommand;
-import triangle.abstractSyntaxTrees.commands.IfCommand;
-import triangle.abstractSyntaxTrees.commands.LetCommand;
-import triangle.abstractSyntaxTrees.commands.SequentialCommand;
-import triangle.abstractSyntaxTrees.commands.WhileCommand;
+import triangle.abstractSyntaxTrees.commands.*;
 import triangle.abstractSyntaxTrees.declarations.ConstDeclaration;
 import triangle.abstractSyntaxTrees.declarations.Declaration;
 import triangle.abstractSyntaxTrees.declarations.FuncDeclaration;
@@ -281,7 +274,29 @@ public class Parser {
 				finish(commandPos);
 				commandAST = new CallCommand(iAST, apsAST, commandPos);
 
-			} else {
+			}else if(currentToken.spelling.equals("++") && currentToken.kind == Token.OPERATOR){
+
+				accept(Token.OPERATOR);
+
+
+				//Set up the operator
+				String spelling = "+";
+				Operator operator = new Operator(spelling,previousTokenPosition);
+
+				//Set up the IntegerExpression
+				String IntegerLiteralSpelling = "1";
+				IntegerLiteral integerLiteral = new IntegerLiteral(IntegerLiteralSpelling, previousTokenPosition);
+				IntegerExpression iEXP = new IntegerExpression(integerLiteral, previousTokenPosition);
+
+				//Set up the variable name expression
+				Vname vAST = parseRestOfVname(iAST);
+				VnameExpression vnameExpression = new VnameExpression(vAST, previousTokenPosition);
+
+				//Set up the binary expression
+				BinaryExpression binaryExpression = new BinaryExpression(vnameExpression, operator, iEXP, previousTokenPosition);
+				commandAST = new AssignCommand(vAST, binaryExpression, previousTokenPosition);
+			}
+			else {
 
 				Vname vAST = parseRestOfVname(iAST);
 				accept(Token.BECOMES);
@@ -328,6 +343,16 @@ public class Parser {
 			finish(commandPos);
 			commandAST = new WhileCommand(eAST, cAST, commandPos);
 		}
+			break;
+
+			case Token.REPEAT: {
+				acceptIt();
+				Command cAST = parseSingleCommand();
+				accept(Token.UNTIL);
+				Expression eAST = parseExpression();
+				finish(commandPos);
+				commandAST = new RepeatCommand(eAST, cAST, commandPos);
+			}
 			break;
 
 		case Token.SEMICOLON:
