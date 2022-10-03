@@ -5,24 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9981d89c-f46b-405b-87f3-a9ca2a57aa43" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Triangle.Compiler/src/main/java/triangle/codeGenerator/entities/BarPrimitiveRoutine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adddeep.tam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adddeep.tri" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adddeepUnfolded.tam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bardemo.tam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj.tam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/repeatuntil.tam" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Triangle.AbstractMachine/src/main/java/triangle/abstractMachine/Primitive.java" beforeDir="false" afterPath="$PROJECT_DIR$/Triangle.AbstractMachine/src/main/java/triangle/abstractMachine/Primitive.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Triangle.Compiler/src/main/java/triangle/StdEnvironment.java" beforeDir="false" afterPath="$PROJECT_DIR$/Triangle.Compiler/src/main/java/triangle/StdEnvironment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Triangle.Compiler/src/main/java/triangle/abstractSyntaxTrees/visitors/CommandVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Triangle.Compiler/src/main/java/triangle/abstractSyntaxTrees/visitors/CommandVisitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Triangle.Compiler/src/main/java/triangle/codeGenerator/Encoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/Triangle.Compiler/src/main/java/triangle/codeGenerator/Encoder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Triangle.Compiler/src/main/java/triangle/contextualAnalyzer/Checker.java" beforeDir="false" afterPath="$PROJECT_DIR$/Triangle.Compiler/src/main/java/triangle/contextualAnalyzer/Checker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Triangle.Compiler/src/main/java/triangle/optimiser/ConstantFolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/Triangle.Compiler/src/main/java/triangle/optimiser/ConstantFolder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Triangle.Compiler/src/main/java/triangle/syntacticAnalyzer/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/Triangle.Compiler/src/main/java/triangle/syntacticAnalyzer/Parser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Triangle.Compiler/src/main/java/triangle/syntacticAnalyzer/Scanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/Triangle.Compiler/src/main/java/triangle/syntacticAnalyzer/Scanner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Triangle.Compiler/src/main/java/triangle/syntacticAnalyzer/Token.java" beforeDir="false" afterPath="$PROJECT_DIR$/Triangle.Compiler/src/main/java/triangle/syntacticAnalyzer/Token.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Triangle.Compiler/src/main/java/triangle/treeDrawer/LayoutVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Triangle.Compiler/src/main/java/triangle/treeDrawer/LayoutVisitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Triangle.Compiler/src/test/java/triangle/syntacticAnalyser/TestScanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/Triangle.Compiler/src/test/java/triangle/syntacticAnalyser/TestScanner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programs/add.tri" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programs/errors(Comments).tri.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programs/errors(Original).tri" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programs/errors-fixed.tri" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/repeatuntil-folded.tam" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Triangle.Compiler/src/test/java/triangle/syntacticAnalyser/TestScanner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programs/adddeep.tri" beforeDir="false" afterPath="$PROJECT_DIR$/programs/adddeep.tri" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programs/assignments.tri" beforeDir="false" afterPath="$PROJECT_DIR$/programs/assignments.tri" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programs/bardemo.tri" beforeDir="false" afterPath="$PROJECT_DIR$/programs/bardemo.tri" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programs/errors.tri" beforeDir="false" afterPath="$PROJECT_DIR$/programs/errors.tri" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programs/hi-newcomment2.tri" beforeDir="false" afterPath="$PROJECT_DIR$/programs/hi-newcomment2.tri" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programs/increment.tri" beforeDir="false" afterPath="$PROJECT_DIR$/programs/increment.tri" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programs/repeatuntil.tri" beforeDir="false" afterPath="$PROJECT_DIR$/programs/repeatuntil.tri" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programs/while.tri" beforeDir="false" afterPath="$PROJECT_DIR$/programs/while.tri" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +66,9 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\dimko\Desktop\Things\Programming Things\GITHUB THINGS\Triangle-Tools\Triangle.Compiler\src\main\java\triangle\codeGenerator\entities" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\dimko\Desktop\Things\Programming Things\GITHUB THINGS\Triangle-Tools\Triangle.Compiler\src" />
     </key>
   </component>
   <component name="RunManager" selected="JUnit.TestScanner.testHi">
@@ -136,8 +137,16 @@
     </configuration>
     <configuration name="Triangle-Tools.jar" type="JarApplication" temporary="true">
       <option name="JAR_PATH" value="$PROJECT_DIR$/build/libs/Triangle-Tools.jar" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="JAR Application.Triangle-Tools.jar" />
+      <item itemvalue="JUnit.TestScanner" />
+      <item itemvalue="JUnit.TestScanner.testHi" />
+      <item itemvalue="JUnit.TestScanner.testHiNewComment" />
+      <item itemvalue="JUnit.TestScanner.testHiNewComment2" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.TestScanner.testHi" />

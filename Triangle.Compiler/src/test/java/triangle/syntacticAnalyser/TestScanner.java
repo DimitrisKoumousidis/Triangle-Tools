@@ -18,29 +18,29 @@ public class TestScanner {
 	public void testHi() {
 		compileExpectSuccess("/hi.tri");
 	}
-//	@Test
-//	public void testadd() {
-//		compileExpectSuccess("/add.tri");
-//	}
-
+	@Test
+	public void testadd() {
+		compileExpectSuccess("/add.tri");
+	}
+	
 
 	@Test
 	public void testHiNewComment() {
 		compileExpectSuccess("/hi-newcomment.tri");
 	} //Added # characters to be recognised as comments
-
+	
 
 	@Test
 	public void testHiNewComment2() {
 		compileExpectSuccess("/hi-newcomment2.tri");
 	}
-
+	
 
 	@Test
 	public void testBarDemo() {
 		compileExpectSuccess("/bardemo.tri");
 	}
-
+	
 
 	@Test
 	public void testRepeatUntil() {
