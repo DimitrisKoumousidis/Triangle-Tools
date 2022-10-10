@@ -257,6 +257,7 @@ public class Parser {
 		return commandAST;
 	}
 
+
 	Command parseSingleCommand() throws SyntaxError {
 		Command commandAST = null; // in case there's a syntactic error
 
@@ -277,24 +278,9 @@ public class Parser {
 			}else if(currentToken.spelling.equals("++") && currentToken.kind == Token.OPERATOR){
 
 				accept(Token.OPERATOR);
-
-
-				//Set up the operator
-				String spelling = "+";
-				Operator operator = new Operator(spelling,previousTokenPosition);
-
-				//Set up the IntegerExpression
-				String IntegerLiteralSpelling = "1";
-				IntegerLiteral integerLiteral = new IntegerLiteral(IntegerLiteralSpelling, previousTokenPosition);
-				IntegerExpression iEXP = new IntegerExpression(integerLiteral, previousTokenPosition);
-
-				//Set up the variable name expression
 				Vname vAST = parseRestOfVname(iAST);
-				VnameExpression vnameExpression = new VnameExpression(vAST, previousTokenPosition);
 
-				//Set up the binary expression
-				BinaryExpression binaryExpression = new BinaryExpression(vnameExpression, operator, iEXP, previousTokenPosition);
-				commandAST = new AssignCommand(vAST, binaryExpression, previousTokenPosition);
+				commandAST =  incrementCommand(vAST, previousTokenPosition);
 			}
 			else {
 
@@ -370,6 +356,28 @@ public class Parser {
 			break;
 
 		}
+
+		return commandAST;
+	}
+
+	Command incrementCommand(Vname variableName,SourcePosition previousTokenPosition) throws SyntaxError {
+		Command commandAST = null; // in case there's a syntactic error
+
+		//Set up the operator
+		String spelling = "+";
+		Operator operator = new Operator(spelling,previousTokenPosition);
+
+		//Set up the IntegerExpression
+		String IntegerLiteralSpelling = "1";
+		IntegerLiteral integerLiteral = new IntegerLiteral(IntegerLiteralSpelling, previousTokenPosition);
+		IntegerExpression iEXP = new IntegerExpression(integerLiteral, previousTokenPosition);
+
+		//Set up the variable name expression
+		VnameExpression vnameExpression = new VnameExpression(variableName, previousTokenPosition);
+
+		//Set up the binary expression
+		BinaryExpression binaryExpression = new BinaryExpression(vnameExpression, operator, iEXP, previousTokenPosition);
+		commandAST = new AssignCommand(variableName, binaryExpression, previousTokenPosition);
 
 		return commandAST;
 	}

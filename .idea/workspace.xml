@@ -5,22 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9981d89c-f46b-405b-87f3-a9ca2a57aa43" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/programs/add.tri" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programs/errors(Comments).tri.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programs/errors(Original).tri" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programs/errors-fixed.tri" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/repeatuntil-folded.tam" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Triangle.Compiler/src/test/java/triangle/syntacticAnalyser/TestScanner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/programs/adddeep.tri" beforeDir="false" afterPath="$PROJECT_DIR$/programs/adddeep.tri" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/programs/assignments.tri" beforeDir="false" afterPath="$PROJECT_DIR$/programs/assignments.tri" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/programs/bardemo.tri" beforeDir="false" afterPath="$PROJECT_DIR$/programs/bardemo.tri" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/programs/errors.tri" beforeDir="false" afterPath="$PROJECT_DIR$/programs/errors.tri" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/programs/hi-newcomment2.tri" beforeDir="false" afterPath="$PROJECT_DIR$/programs/hi-newcomment2.tri" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Triangle.Compiler/src/main/java/triangle/codeGenerator/Encoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/Triangle.Compiler/src/main/java/triangle/codeGenerator/Encoder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Triangle.Compiler/src/main/java/triangle/contextualAnalyzer/Checker.java" beforeDir="false" afterPath="$PROJECT_DIR$/Triangle.Compiler/src/main/java/triangle/contextualAnalyzer/Checker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Triangle.Compiler/src/main/java/triangle/syntacticAnalyzer/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/Triangle.Compiler/src/main/java/triangle/syntacticAnalyzer/Parser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/Triangle-Tools.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/Triangle-Tools.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj.tam" beforeDir="false" afterPath="$PROJECT_DIR$/obj.tam" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/programs/increment.tri" beforeDir="false" afterPath="$PROJECT_DIR$/programs/increment.tri" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/programs/repeatuntil.tri" beforeDir="false" afterPath="$PROJECT_DIR$/programs/repeatuntil.tri" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/programs/while.tri" beforeDir="false" afterPath="$PROJECT_DIR$/programs/while.tri" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/repeatuntil.tam" beforeDir="false" afterPath="$PROJECT_DIR$/repeatuntil.tam" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +64,7 @@
       <recent name="C:\Users\dimko\Desktop\Things\Programming Things\GITHUB THINGS\Triangle-Tools\Triangle.Compiler\src" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestScanner.testHi">
+  <component name="RunManager" selected="JUnit.TestScanner">
     <configuration name="TestScanner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Triangle-Tools.Triangle.Compiler.test" />
       <extension name="coverage">
@@ -149,11 +142,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestScanner" />
         <item itemvalue="JUnit.TestScanner.testHi" />
         <item itemvalue="JAR Application.Triangle-Tools.jar" />
         <item itemvalue="JUnit.TestScanner.testHiNewComment" />
         <item itemvalue="JUnit.TestScanner.testHiNewComment2" />
-        <item itemvalue="JUnit.TestScanner" />
       </list>
     </recent_temporary>
   </component>
