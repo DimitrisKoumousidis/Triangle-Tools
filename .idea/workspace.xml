@@ -5,8 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9981d89c-f46b-405b-87f3-a9ca2a57aa43" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_13_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Triangle-Tools.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Triangle-Tools.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Triangle-Tools.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Triangle.AbstractMachine.Disassembler/Triangle-Tools.Triangle.AbstractMachine.Disassembler.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Triangle.AbstractMachine.Disassembler/Triangle-Tools.Triangle.AbstractMachine.Disassembler.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Triangle.AbstractMachine.Disassembler/Triangle-Tools.Triangle.AbstractMachine.Disassembler.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Triangle.AbstractMachine.Interpreter/Triangle-Tools.Triangle.AbstractMachine.Interpreter.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Triangle.AbstractMachine.Interpreter/Triangle-Tools.Triangle.AbstractMachine.Interpreter.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Triangle.AbstractMachine.Interpreter/Triangle-Tools.Triangle.AbstractMachine.Interpreter.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Triangle.AbstractMachine/Triangle-Tools.Triangle.AbstractMachine.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Triangle.AbstractMachine/Triangle-Tools.Triangle.AbstractMachine.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Triangle.AbstractMachine/Triangle-Tools.Triangle.AbstractMachine.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Triangle.Compiler/Triangle-Tools.Triangle.Compiler.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Triangle.Compiler/Triangle-Tools.Triangle.Compiler.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Triangle.Compiler/Triangle-Tools.Triangle.Compiler.test.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Triangle.Compiler/src/test/java/triangle/syntacticAnalyser/TestScanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/Triangle.Compiler/src/test/java/triangle/syntacticAnalyser/TestScanner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bardemo.tam" beforeDir="false" afterPath="$PROJECT_DIR$/bardemo.tam" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/libs/Triangle-Tools.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/Triangle-Tools.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programs/increment.tri" beforeDir="false" afterPath="$PROJECT_DIR$/programs/increment.tri" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programs/repeatuntil.tri" beforeDir="false" afterPath="$PROJECT_DIR$/programs/repeatuntil.tri" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/repeatuntil.tam" beforeDir="false" afterPath="$PROJECT_DIR$/repeatuntil.tam" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +45,18 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -43,8 +83,8 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Triangle.Compiler/src/main/java/triangle/codeGenerator/entities" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propCompiler" />
@@ -57,7 +97,53 @@
       <recent name="C:\Users\dimko\Desktop\Things\Programming Things\GITHUB THINGS\Triangle-Tools\Triangle.Compiler\src" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestScanner">
+  <component name="RunManager" selected="Gradle.TestScanner (1)">
+    <configuration name="TestScanner (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":Triangle.Compiler:test" />
+            <option value="--tests" />
+            <option value="&quot;triangle.syntacticAnalyser.TestScanner&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="TestScanner.testHi" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":Triangle.Compiler:test" />
+            <option value="--tests" />
+            <option value="&quot;triangle.syntacticAnalyser.TestScanner.testHi&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="TestScanner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Triangle-Tools.Triangle.Compiler.test" />
       <extension name="coverage">
@@ -105,41 +191,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestScanner.testHiNewComment2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Triangle-Tools.Triangle.Compiler.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="triangle.syntacticAnalyser.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="triangle.syntacticAnalyser" />
-      <option name="MAIN_CLASS_NAME" value="triangle.syntacticAnalyser.TestScanner" />
-      <option name="METHOD_NAME" value="testHiNewComment2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Triangle-Tools.jar" type="JarApplication" temporary="true">
-      <option name="JAR_PATH" value="$PROJECT_DIR$/build/libs/Triangle-Tools.jar" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="JAR Application.Triangle-Tools.jar" />
       <item itemvalue="JUnit.TestScanner" />
       <item itemvalue="JUnit.TestScanner.testHi" />
       <item itemvalue="JUnit.TestScanner.testHiNewComment" />
-      <item itemvalue="JUnit.TestScanner.testHiNewComment2" />
+      <item itemvalue="Gradle.TestScanner (1)" />
+      <item itemvalue="Gradle.TestScanner.testHi" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.TestScanner (1)" />
+        <item itemvalue="Gradle.TestScanner.testHi" />
         <item itemvalue="JUnit.TestScanner" />
-        <item itemvalue="JUnit.TestScanner.testHi" />
-        <item itemvalue="JAR Application.Triangle-Tools.jar" />
         <item itemvalue="JUnit.TestScanner.testHiNewComment" />
-        <item itemvalue="JUnit.TestScanner.testHiNewComment2" />
+        <item itemvalue="JUnit.TestScanner.testHi" />
       </list>
     </recent_temporary>
   </component>
