@@ -5,36 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9981d89c-f46b-405b-87f3-a9ca2a57aa43" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_13_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Triangle-Tools.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Triangle-Tools.main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Triangle-Tools.test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Triangle.AbstractMachine.Disassembler/Triangle-Tools.Triangle.AbstractMachine.Disassembler.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Triangle.AbstractMachine.Disassembler/Triangle-Tools.Triangle.AbstractMachine.Disassembler.main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Triangle.AbstractMachine.Disassembler/Triangle-Tools.Triangle.AbstractMachine.Disassembler.test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Triangle.AbstractMachine.Interpreter/Triangle-Tools.Triangle.AbstractMachine.Interpreter.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Triangle.AbstractMachine.Interpreter/Triangle-Tools.Triangle.AbstractMachine.Interpreter.main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Triangle.AbstractMachine.Interpreter/Triangle-Tools.Triangle.AbstractMachine.Interpreter.test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Triangle.AbstractMachine/Triangle-Tools.Triangle.AbstractMachine.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Triangle.AbstractMachine/Triangle-Tools.Triangle.AbstractMachine.main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Triangle.AbstractMachine/Triangle-Tools.Triangle.AbstractMachine.test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Triangle.Compiler/Triangle-Tools.Triangle.Compiler.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Triangle.Compiler/Triangle-Tools.Triangle.Compiler.main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Triangle.Compiler/Triangle-Tools.Triangle.Compiler.test.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Triangle.Compiler/src/test/java/triangle/syntacticAnalyser/TestScanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/Triangle.Compiler/src/test/java/triangle/syntacticAnalyser/TestScanner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bardemo.tam" beforeDir="false" afterPath="$PROJECT_DIR$/bardemo.tam" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/Triangle-Tools.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/Triangle-Tools.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/programs/increment.tri" beforeDir="false" afterPath="$PROJECT_DIR$/programs/increment.tri" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/programs/repeatuntil.tri" beforeDir="false" afterPath="$PROJECT_DIR$/programs/repeatuntil.tri" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/repeatuntil.tam" beforeDir="false" afterPath="$PROJECT_DIR$/repeatuntil.tam" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj.tam" beforeDir="false" afterPath="$PROJECT_DIR$/obj.tam" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,11 +165,11 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Gradle.TestScanner (1)" />
+      <item itemvalue="Gradle.TestScanner.testHi" />
       <item itemvalue="JUnit.TestScanner" />
       <item itemvalue="JUnit.TestScanner.testHi" />
       <item itemvalue="JUnit.TestScanner.testHiNewComment" />
-      <item itemvalue="Gradle.TestScanner (1)" />
-      <item itemvalue="Gradle.TestScanner.testHi" />
     </list>
     <recent_temporary>
       <list>
